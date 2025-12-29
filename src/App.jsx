@@ -21,6 +21,7 @@ function App() {
       <div className='main-container'>
         <Routes>
           <Route  exact path='/' element={<Moviegallery />}/>
+          <Route  exact path='/boxoffice/' element={<Moviegallery />}/>
           <Route  path='/shows/:id' element={<Movviedetails />}/>
           
         </Routes>

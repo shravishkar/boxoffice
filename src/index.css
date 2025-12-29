@@ -130,10 +130,11 @@ button:disabled {
 .detailsdiv{
   display: flex;
   flex-direction: row;
-  gap:20px;
+  gap:10px;
 }
 tr td :first-child{
   padding-right: 10px;
   padding-bottom: 10px;
   font-weight: bold;
+  
 }

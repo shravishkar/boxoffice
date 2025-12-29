@@ -8,8 +8,8 @@ const router = BrowserRouter
 
 createRoot(document.getElementById('root')).render(
 
-  
 
-  <App />
+      <App />
+
  
 )
