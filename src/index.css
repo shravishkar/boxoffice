@@ -1,0 +1,139 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.appcomp {
+  display: flex;
+  flex-direction:row;
+}
+.sidebar-container {
+    /* Existing Styles */
+    border-right: 1px solid white;
+    padding: 10px;
+    width: 9vw; 
+ 
+    position: fixed; 
+
+    height: 100vh; 
+    z-index: 100; 
+  
+    overflow-y: auto;
+}
+.main-container{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:87.5vw;
+  margin-left: 11.5vw;
+
+}
+.searchbar-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed; 
+  width: 87.5vw;
+  background-color: rgba(37, 37, 37, 0.658);
+
+}
+.mainside-Container{
+  display: flex;
+  flex-direction: column;
+
+}
+.gallery {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ gap: 2px;
+ margin-top: 10vh;
+}
+.gallery-item h3 {
+    /* 1. Ensure the font size and margins are consistent */
+    font-size: 1.1em;
+    margin: 5px 0 10px 0; 
+    color: #ffffff;
+    width: 220px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+}
+
+
+.navbar{
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+/* CSS */
+button{
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+button:hover,
+button:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+.detailsdiv{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+tr td :first-child{
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
