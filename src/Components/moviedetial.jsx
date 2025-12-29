@@ -33,10 +33,11 @@ const Movviedetails = () => {
                     <td>Language:</td>
                     <td>{data.language}</td> 
                 </tr>
-                <tr>
+                {data.ended &&  <tr>
                     <td>Ended:</td>
                     <td>{data.ended}</td> 
-                </tr>                
+                </tr>   }
+                            
              </table></div>
             </div>} 
 

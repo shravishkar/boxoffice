@@ -7,7 +7,6 @@ import react from '@vitejs/plugin-react';
 const repoName = 'boxoffice'; 
 
 export default defineConfig({
-  // 👇 ADD THIS 'base' FIELD
   base: `/${repoName}/`, 
   plugins: [react()],
 });
