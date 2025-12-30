@@ -19,7 +19,7 @@ const Movviedetails = () => {
        <div>
         <p>details</p>
         {isPending && <div>is pending</div>}
-        {Error && <div>is error</div>}
+       {Error && <div>is error</div>}
         {data && <div className="detailsdiv">
             <div> <img src={data.image.original} alt={data.name} width="400" /></div>
             <div><h2>{data.name}</h2>
