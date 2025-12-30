@@ -1,0 +1,20 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Shravan",
+            "likedMovies": [1,2,3]
+        },
+        {
+            "id": 2,
+            "name": "Superman",
+            "likedMovies": [1,2,3]
+        },
+        {
+            "id": 3,
+            "name": "Bangaram",
+            "likedMovies": [1,2,3]
+        }
+ ]
+           
+}

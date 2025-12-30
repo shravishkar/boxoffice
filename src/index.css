@@ -73,7 +73,7 @@ h1 {
   flex-direction: column;
 
 }
-.gallery {
+.gallery  {
  display: flex;
  flex-direction: row;
  flex-wrap: wrap;
@@ -137,4 +137,7 @@ tr td :first-child{
   padding-bottom: 10px;
   font-weight: bold;
   
+}
+.userlist{
+  margin-top: 40px;
 }

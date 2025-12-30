@@ -3,6 +3,7 @@ import Moviegallery from './Components/Moviegallery'
 import Navbar from './navbar'
 import { BrowserRouter as Router , Route, Routes } from 'react-router-dom'
 import Movviedetails from './Components/moviedetial'
+import UserList from './Components/userlist'
 
 
 
@@ -23,6 +24,8 @@ function App() {
           <Route  exact path='/' element={<Moviegallery />}/>
           <Route  exact path='/boxoffice/' element={<Moviegallery />}/>
           <Route  path='/shows/:id' element={<Movviedetails />}/>
+          <Route  path='/users/' element={<UserList />}/>
+
           
         </Routes>
 
