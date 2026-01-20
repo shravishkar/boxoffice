@@ -12,9 +12,6 @@ const Movviedetails = () => {
 
     console.log(data);      
 
-    
-
-
     return ( 
        <div>
         <p>details</p>
